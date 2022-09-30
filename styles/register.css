@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+
+form {
+    width: 60%;
+    margin:2rem auto;
+    text-align: center;
+    border: 2px solid tan;
+    padding: 2rem;
+}
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+input, button {
+    width: 100%;
+    text-align: center;
+    border: 2px solid slategrey;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 2rem;
+}
